@@ -9,20 +9,21 @@ void SFW_stuff();
 int main()
 {
   int option;
-
-  main_menu();
-  cin >> option;
-  if (option == 1)
+  do
   {
-      adult_stuff();
-  }
-  else if (option == 2)
-  {
-      SFW_stuff();
-  }
-  else
-  cout << "It was nice seeing you again!" << endl;
-
+    main_menu();
+    cin >> option;
+    if (option == 1)
+    {
+        adult_stuff();
+    }
+    else if (option == 2)
+    {
+        SFW_stuff();
+    }
+    else
+    cout << "It was nice seeing you again!" << endl;
+  }while (option == 1 || option == 2)
   return 0;
 }
 
