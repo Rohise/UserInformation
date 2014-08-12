@@ -23,7 +23,7 @@ int main()
     }
     else
     cout << "It was nice seeing you again!" << endl;
-  }while (option == 1 || option == 2)
+  }while (option == 1 || option == 2);
   return 0;
 }
 
