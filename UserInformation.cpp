@@ -15,11 +15,15 @@ int main()
     cin >> option;
     if (option == 1)
     {
-        adult_stuff();
+      cout << endl;
+      adult_stuff();
+      cout << endl;
     }
     else if (option == 2)
     {
-        SFW_stuff();
+      cout << endl;
+      SFW_stuff();
+      cout << endl;
     }
     else
     cout << "It was nice seeing you again!" << endl;
