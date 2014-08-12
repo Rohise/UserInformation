@@ -32,7 +32,6 @@ void main_menu()
   cout << "For adult stuff press 1, for SFW stuff press 2." << endl;
 }
 
-
 void adult_stuff()
 {
   cout << "insertsite: Username:  Password: ." << endl;
