@@ -36,12 +36,12 @@ void main_menu()
 void adult_stuff()
 {
   cout << "insertsite: Username:  Password: ." << endl;
-	cout << "insertsite: Username:  Password: ." << endl;
+  cout << "insertsite: Username:  Password: ." << endl;
 }
 
 void SFW_stuff()
 {
   cout << "insertsite: Username: Password: " << endl;
-	cout << "insertsite: Username: Password: " << endl;
-	cout << "insertsite: Username: Password: " << endl;
+  cout << "insertsite: Username: Password: " << endl;
+  cout << "insertsite: Username: Password: " << endl;
 }
